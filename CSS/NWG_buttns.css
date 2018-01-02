@@ -1,0 +1,229 @@
+﻿/* 
+Theme Name: NWG
+Theme URI: http://www.parifizieren.at.at/NWG
+Author: Hartmut Krämer
+Author URL: http://www.parifizieren.at.at/NWG
+Version: 1
+*/
+
+/* ########### Buttons ########### */
+.back_buttn, .copy_buttn, .delete_buttn, .edit_buttn, .export_buttn, .export_buttn1, .import_buttn, 
+.neu_buttn, .oben_buttn, .object_buttn, .okay_buttn, .print_buttn, .rauf_buttn, .raum_buttn, .rechnen_buttn, .runter_buttn, .runter_buttn_solo,
+.save_buttn, .search_buttn, .unten_buttn, .vor_buttn, 
+.zuab_buttn, .info_buttn,
+.step_plus_buttn, .step_minus_buttn {
+	float: left ;
+	cursor: pointer ;
+	border: none ;
+	margin-left: 5px ;
+	margin-top: -3px ;
+	width: 21px ;
+	height: 21px ;
+	background-repeat: no-repeat ;
+	}
+.back_buttn {
+	background-image: url('buttons/back.png') ;
+	}
+.copy_buttn {
+	background-image: url('buttons/copy.png') ;
+	}
+.delete_buttn {
+	background-image: url('buttons/delete.png') ;
+	}
+.edit_buttn {
+	background-image: url('buttons/edit.png') ;
+	}
+.export_buttn, .export_buttn1 {
+	background-image: url('buttons/export.png') ;
+	}
+.export_buttn1 {
+	margin-left: 57px ;
+	}
+.import_buttn {
+	background-image: url('buttons/import.png') ;
+	}
+.neu_buttn {
+	background-image: url('buttons/neu.png') ;
+	}
+.oben_buttn {
+	background-image: url('buttons/oben.png') ;
+	}
+.object_buttn {
+	background-image: url('buttons/object.png') ;
+	}
+.okay_buttn {
+	background-image: url('buttons/okay.png') ;
+	}
+.print_buttn {
+	background-image: url('buttons/print.png') ;
+	}
+.rauf_buttn {
+	background-image: url('buttons/rauf.png') ;
+	}
+.raum_buttn {
+	background-image: url('buttons/raum.png') ;
+	}
+.rechnen_buttn {
+	background-image: url('buttons/rechnen.png') ;
+	}
+.runter_buttn, .runter_buttn_solo {
+	background-image: url('buttons/runter.png') ;
+	}
+.runter_buttn_solo {
+	margin-left: 57px ;
+	}
+.save_buttn {
+	background-image: url('buttons/save.png') ;
+	}
+.search_buttn {
+	background-image: url('buttons/search.png') ;
+	}
+.unten_buttn {
+	background-image: url('buttons/unten.png') ;
+	}
+.vor_buttn {
+	background-image: url('buttons/vor.png') ;
+	}
+
+.zuab_buttn {
+	background-image: url('buttons/zuab.png') ;
+	}
+
+.step_plus_buttn, .step_minus_buttn {
+	margin-left: 15px ;
+	}
+.step_plus_buttn {
+	background-image: url('buttons/white_plus.png') ;
+	}
+.step_minus_buttn {
+	background-image: url('buttons/white_minus.png') ;
+	}
+
+#del_was {
+	width: 240px ;
+	height: 64px ;
+	}
+.del_ja, .del_nein {
+	width: 115px ;
+	cursor: pointer ;
+	}
+.del_ja {
+	float: left ;
+	background-image: url('buttons/del_ja.png') ;
+	height: 25px ;
+	margin-top: 5px ;
+	}
+.del_nein {
+	float: right ;
+	background-image: url('buttons/del_nein.png') ;
+	height: 23px ;
+	margin-top: 7px ;
+	}
+
+.info_buttn {
+	width: 15px ;
+	height: 15px ;
+	padding-left: 20px ;
+	background-image: url('buttons/info.png') ;
+	}
+
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+	}
+.inputfile + label, .exportfile {
+	width: auto ;
+	height: auto ;
+	padding: 10px ;
+	font-size: 1.25em;
+	color: white;
+	background-color: #7ea0b1 ;
+	display: inline-block;
+	margin: 20px 0 20px ;
+	}
+.inputfile + label {
+	cursor: pointer ;
+	}
+.inputfile:focus + label, .inputfile + label:hover {
+	background-color: #be9a9e ;
+	}
+
+.battn, .battnsmall {
+	float: left ;
+	color: #666666 ;
+	width: 110px ;	
+	height: auto ;
+	border: 1px gray solid ;
+	background-color:  #F2F2F2 ;
+	text-align: center ;
+	vertical-align: middle ;
+	cursor: pointer ;
+	margin-left: 5px ;
+	}
+.battn {
+	width: 200px ;	
+	}
+.battnsmall {
+	width: 95px ;	
+	}
+.buttnrow, .buttnrowhead {
+	clear: both ;
+	float: left ;
+	width: 1378px ;
+	color: #666666 ;
+	}
+.buttnrowhead {
+	font-weight: bold ;
+	margin: 25px 0 15px 0 ;
+	font-size: 12px ;
+	}
+.buttntd {
+	float: left ;
+	margin: 0 15px 20px 0 ;
+	padding-right: 20px ;
+	}
+#buttnbox, #buttnboxB2 {
+	clear: both ;
+	float: left ;
+	}
+#buttnbox {
+	margin: 10px 0 15px 0 ;
+	}
+#buttnboxB2 {
+	margin: 35px 0 15px 0 ;
+	}
+#buttnbox_left {
+	clear: both ;
+	float: left ;
+	}
+#buttnbox_right {
+	float: left ;
+	margin-left: 15px ;
+	}
+
+.print_gut8en_heading1, .print_gut8en_heading {
+	clear: both ;
+	float: left ;
+	margin-bottom:15px ;
+	font-weight: bold ;
+	}
+.print_gut8en_heading {
+	margin-top: 20px ;
+	}
+.print_gut8en_button1 {
+	clear: both ;
+	}
+.print_gut8en_button1, .print_gut8en_button {
+	float: left ;
+	height: 20px ;
+	width: 175px ;
+	background-color: #7ea0b1 ;
+	text-align: center ;
+	margin: 0 20px 20px 0 ;
+	padding-top: 5px ;
+	}
+/*	EOF */

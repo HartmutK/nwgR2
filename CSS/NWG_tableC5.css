@@ -1,0 +1,71 @@
+﻿/* 
+Theme Name: NWG - C.5 Zubehör
+Theme URI: http://www.parifizieren.at/NWG
+Author: Hartmut Krämer
+Author URL: http://www.sitesolutions.eu
+Version: 1
+*/
+.clear {
+	clear: both ;
+	}
+#mainc5 {
+	float: left;
+	min-height: 100%;
+	width: 1400px ;
+	overflow: auto ;
+	padding-bottom: 10px ;
+	margin-top: 210px ;
+	}
+#mainc5_oben {
+	margin: -10px 0 0 5px ;
+	height: 65px ;
+	width: 1390px ;
+	padding: 10px 0 0 5px ;
+	position: fixed ;
+	background: url( ../Bilder/bg.png ) repeat ;
+	}
+#mainc5_unten {
+	padding-top: 70px ;
+	padding-left: 20px ;
+	}
+.tr, .trin, .trhd {
+	float: left ;
+	width: 1368px ;
+	}
+.trin {
+	padding-left: 5px ;
+	}
+.trhd {
+	background-color: #7ea0b1 ;
+	color:#FFFFFF ;
+	height: 15px ;
+	padding: 6px 5px 5px 10px ;
+	margin-top: 10px ;
+	margin-bottom: 5px ;
+	position: fixed ;
+	}
+
+.col1, .col2, .col3, .col4, .col5, .col6, .col_buttons {
+	float: left ;
+	margin-right: 20px ;
+	}
+.col_buttons {
+	margin-left: 20px ;
+	}
+.col1 {
+	width: 250px ;
+	}
+.col2 {
+	width: 250px ;
+	}
+.col3, .col4 {
+	width: 100px ;
+	text-align: right ;
+	}
+.col5 {
+	width: 80px ;
+	}
+.col6 {
+	width: 150px ;
+	}
+/*	EOF */

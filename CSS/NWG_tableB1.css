@@ -1,0 +1,86 @@
+﻿/* 
+Theme Name: NWG -  B.3 Ortsbesichtigungen
+Theme URI: http://www.parifizieren.at/NWG
+Author: Hartmut Krämer
+Author URL: http://www.sitesolutions.eu
+Version: 1
+*/
+.clear {
+	clear: both ;
+	}
+#mainb1 {
+	float: left;
+	min-height: 100%;
+	width: 1400px ;
+	overflow: auto ;
+	padding-bottom: 10px ;
+	margin-top: 210px ;
+	}
+#mainb1_oben {
+	margin: -5px 0 10px 5px ;
+	height: 70px ;
+	width: 1390px ;
+	padding: 10px 0 0 5px ;
+	position: fixed ;
+	background: url( ../Bilder/bg.png ) repeat ;
+	}
+#mainb1_unten {
+	padding: 60px 0 10px 10px ;
+	}
+
+.tr, .trin, .trhd {
+	float: left ;
+	width: 1368px ;
+	}
+.tr {
+	padding-bottom: 5px ;
+	}
+.trin {
+	padding-left: 5px ;
+	padding-bottom: 10px ;
+	}
+.trhd {
+	background-color: #7ea0b1 ;
+	color:#FFFFFF ;
+	height: 15px ;
+	padding: 6px 5px 5px 10px ;
+	margin-top: 15px ;
+	margin-bottom: 30px ;
+	position: fixed ;
+	}
+
+.col_button {
+	float: left ;
+	margin-left: 20px ;
+	}
+.col_buttons {
+	float: left ;
+	margin-top: 10px ;
+	}
+
+.col1, .col1a, .col2 {
+	float: left ;
+	}
+.col1, .col2 {
+	margin-right: 20px ;
+	height: 20px ;
+	}
+.col1a {
+	border: 1px gray solid ;
+	margin-bottom: 5px ;
+	width: 100% ;
+	}
+.col1 {
+	width: 140px ;
+	}
+.col2 {
+	width: 110px ;
+	}
+section {
+	float: left ;
+	width: 18% ;
+	margin-top: 35px ;
+	padding: 30px 1% 10px 1% ;
+	}
+	}
+/*	EOF */

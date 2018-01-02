@@ -1,0 +1,40 @@
+﻿/*
+Theme Name: NWG
+Theme URI: http://www.parifizieren.at/NWG
+Author: Hartmut Krämer
+Author URL: http://www.parifizieren.at/NWG
+Version: 1
+*/
+
+.menue, .submenue {
+	clear: both ;
+	float: left ;
+/*	text-transform: uppercase; */
+	}
+.menue {
+	width: 1200px ;
+	margin-top: -75px ;
+	}
+.submenue {
+	margin: 10px 0 0 20px ;
+	width: 1400px ;
+	background-color: #7ea0b1 ;
+	}
+.item1, .subitem1, .selected1 {
+	clear: both ;
+	}
+.item, .item1, .subitem, .subitem1, .selected, .selected1 {
+	float: left ;
+	line-height: 1.5em ;
+	margin: 0px 20px 0px 20px ;
+	font-size: 14px ;
+	color: white ;
+	}
+.item:hover, .item1:hover, .subitem:hover, .subitem1:hover, .item:selected, .item:selected1 {
+	}
+.selected, .selected1 {
+	background-color: #be9a9e ;
+	color: white ;
+	}
+
+/*	EOF */

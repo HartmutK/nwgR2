@@ -1,0 +1,141 @@
+﻿/* 
+Theme Name: NWG -  B.4 Nutzflächenberechnung
+Theme URI: http://www.parifizieren.at/NWG
+Author: Hartmut Krämer
+Author URL: http://www.sitesolutions.eu
+Version: 1
+*/
+.clear {
+	clear: both ;
+	}
+#mainb4 {
+	float: left;
+	min-height: 100%;
+	width: 1400px ;
+	overflow: auto ;
+	padding-bottom: 10px ;
+	margin-top: 210px ;
+	}
+#mainb4_oben {
+	margin: -5px 0 10px 5px ;
+	height: 100px ;
+	width: 1390px ;
+	padding: 10px 0 0 5px ;
+	position: fixed ;
+	background: url( ../Bilder/bg.png ) repeat ;
+	}
+#mainb4_unten {
+	width: 1390px ;
+	padding-top: 115px ;
+	padding-left: 10px ;
+	}
+
+.tr, .tr1, .trin, .trhd, .trhd2 {
+	float: left ;
+	width: 1368px ;
+	}
+.tr, .tr1 {
+	padding-left: 10px ;
+	}
+.tr {
+	padding-bottom: 5px ;
+	}
+.trin {
+	padding: 0 0 5px 10px ;
+	}
+.trhd, .trhd2 {
+	background-color: #7ea0b1 ;
+	color: #FFFFFF ;
+	padding: 6px 5px 5px 10px ;
+	height: 15px ;
+	}
+.trhd {
+	margin-top: 5px ;
+	margin-bottom: 10px ;
+	position: fixed ;
+	}
+.trhd2 {
+	margin-bottom: 10px ;
+	margin-top: 5px ;
+	}
+.col_buttons, .col_buttons85, .col_buttonblk {
+	float: left ;
+	margin-top: 2px ;
+	margin-left: 20px ;
+	}
+.col_buttons {
+	margin-left: 16px ;
+	}
+.col_buttons85 {
+	margin-left: 190px ;
+	}
+.col_buttonblk {
+	margin-left: 110px ;
+	}
+
+.sp1, .sp1a, .sp1l, .sp2, .sp2a, .sp3, .sp3a, .sp4, .sp5, .sp5a, .sp7, .sp7_1, .sp7_2, .etxt {
+	float: left ;
+	height: 20px ;
+	}
+.sp1, .sp1a, .sp2, .sp2a, .sp3, .sp3a, .sp5, .sp5a {
+	margin-right: 20px ;
+	}
+.sp1{
+	width: 150px ;
+	}
+.sp1a {
+	width: 170px ;
+	}
+.sp1l {
+	width: 350px ;
+	}
+.sp2{
+	width: 120px ;
+	}
+.sp2a {
+	width: 140px ;
+	}
+.sp3{
+	width: 60px ;
+	}
+.sp3a {
+	width: 80px ;
+	}
+.sp4 {
+	width: 60px ;
+	text-align: center ;
+	}
+.sp5{
+	width: 100px ;
+	}
+.sp5a {
+	width: 120px ;
+	}
+.sp7, .sp7_1{
+	width: 60px ;
+	text-align: right ;
+	margin-left: 20px ;
+	}
+.sp7_1 {
+	margin-left: 280px ;
+	margin-right: 20px ;
+	height: 21px ;
+	}
+.sp7_2 {
+	margin-left: 410px ;
+	}
+.sp9 {
+	float: left ;
+	width: 70px ;
+	text-align: right ;
+	margin: -25px 0 0 970px ;
+	}
+.etxt {
+	width: 120px ;
+	margin-left: 20px ;
+	}
+.colbold {
+	font-weight: bold ;
+	margin: 2px 0 1px 0 ;
+	}
+/*	EOF */

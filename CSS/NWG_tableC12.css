@@ -1,0 +1,79 @@
+﻿/* 
+Theme Name: NWG -  C.4 Regelnutzwerte
+Theme URI: http://www.parifizieren.at/NWG
+Author: Hartmut Krämer
+Author URL: http://www.sitesolutions.eu
+Version: 1
+*/
+.clear {
+	clear: both ;
+	}
+#mainc12 {
+	float: left;
+	min-height: 100%;
+	width: 1400px ;
+	overflow: auto ;
+	padding-bottom: 10px ;
+	margin-top: 210px ;
+	}
+#mainc12_oben {
+	margin: -5px 0 10px 5px ;
+	height: 55px ;
+	width: 1390px ;
+	padding: 10px 0 0 5px ;
+	position: fixed ;
+	background: url( ../Bilder/bg.png ) repeat ;
+	}
+#mainc12_unten {
+	padding-top: 80px ;
+	padding-left: 20px ;
+	}
+
+.tr, .trin, .trhd {
+	float: left ;
+	width: 1368px ;
+	}
+.tr {
+	padding-bottom: 5px ;
+	}
+.trin {
+	padding-left: 10px ;
+	}
+.trhd {
+	background-color: #7ea0b1 ;
+	color:#FFFFFF ;
+	height: 15px ;
+	padding: 6px 5px 5px 10px ;
+	margin-top: 15px ;
+	margin-bottom: 30px ;
+	position: fixed ;
+	}
+
+.col_buttons {
+	float: left ;
+	margin-left: 20px ;
+	padding-top: 4px ;
+	}
+
+.col1, .col1a, .col2, .col2a, .etxt {
+	float: left ;
+	margin-right: 20px ;
+	height: 20px ;
+	}
+.col1 {
+	width: 80px ;
+	}
+.col1a {
+	width: 60px ;
+	}
+.col2 {
+	width: 220px ;
+	}
+.col2a {
+	width: 200px ;
+	}
+.etxt {
+	width: 300px ;
+	margin-left: 20px ;
+	}
+/*	EOF */

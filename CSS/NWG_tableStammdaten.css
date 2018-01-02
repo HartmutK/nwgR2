@@ -1,0 +1,191 @@
+﻿/* 
+Theme Name: NWG - Stammdaten 
+Theme URI: http://www.parifizieren.at/NWG
+Author: Hartmut Krämer
+Author URL: http://www.sitesolutions.eu
+Version: 1
+*/
+.clear {
+	clear: both ;
+	}
+sectn {
+	float: left ;
+	width: 46% ;
+	margin: 2% 2% ;
+	text-align: left ;
+	}
+#mains {
+	float: left;
+	min-height: 100%;
+	width: 1400px ;
+	overflow: auto ;
+	padding-bottom: 10px ;
+	margin-top: 120px ;
+	}
+#mains_oben, #mains_oben1, #mains_oben2 {
+	margin: 5px 0 10px 0 ;
+	width: 1390px ;
+	padding: 10px 0 0 0 ;
+	position: fixed ;
+	background: url( ../Bilder/bg.png ) repeat ;
+	}
+#mains_oben {
+	height: 80px ;
+	}
+#mains_oben1 {
+	height: 145px ;
+	}
+#mains_oben2 {
+	height: 260px ;
+	}
+#mains_unten, #mains_unten1, #mains_unten2 {
+	padding-left: 10px ;
+	}
+#mains_unten {
+	padding-top: 100px ;
+	}
+#mains_unten1 {
+	padding-top: 156px ;
+	}
+#mains_unten2 {
+	padding-top: 270px ;
+	}
+
+.tr, .truser {
+	float: left ;
+	width: 1365px ;
+	padding: 6px 0 0 0 ;
+	}
+.tr {
+	margin-left: 10px ;
+	}
+.truser {
+	margin-left: 20px ;
+	}
+.trhd {
+	float: left ;
+	width: 1365px ;
+	margin-left: 10px ;
+	background-color: #7ea0b1 ;
+	padding: 6px 5px 5px 10px ;
+	margin-top: 20px ;
+	margin-bottom: 5px ;
+	color:#FFFFFF ;
+	height: 15px ;
+	}
+.trin {
+	float: left ;
+	width: 1365px ;
+	margin: 6px 0 0 20px ;
+	}
+
+.col_40, .col_40c, .col_40r, .col_60, .col_60r, .col_60mr, .col_80, .col_80r, 
+.col_100, .col_120, .col_130, .col_140, .col_160, .col_180, 
+.col_200, .col_220, .col_250, .col_270, 
+.col_400, .col_400a, .col_400b, .col_420, .col_600, .col_620, .col_buttons, .col_butt, .colyesno, .etxt, .unit {
+	float: left ;
+	font-size: 12px ;
+	font-family: 'Cabin', sans-serif;
+	}
+.col_buttons {
+	margin: 1px 0 0 20px ;
+	}
+.col_butt {
+	margin-top: 20px ;
+	}
+.col_40, .col_40c, .col_40r {
+	width: 40px ;
+	}
+.col_40c {
+	text-align: center ;
+	}
+.col_40r {
+	text-align: right ;
+	}
+.col_60, .col_60r, .col_60mr {
+	width: 60px ;
+	}
+.col_60r {
+	text-align: right ;
+	}
+.col_60r, .col_60mr {
+	margin-right: 20px ;
+	}
+.col_80 {
+	width: 80px ;
+	}
+.col_80r {
+	width: 80px ;
+	text-align: right ;
+	margin-right: 20px ;
+	}
+.col_100 {
+	width: 100px ;
+	}
+.col_120 {
+	width: 120px ;
+	}
+.col_130 {
+	width: 130px ;
+	}
+.col_140 {
+	width: 140px ;
+	}
+.col_160 {
+	width: 160px ;
+	}
+.col_180 {
+	width: 180px ;
+	}
+.col_200 {
+	width: 200px ;
+	}
+.col_220 {
+	width: 220px ;
+	}
+.col_250 {
+	width: 250px ;
+	}
+.col_270 {
+	width: 270px ;
+	}
+.col_400, .col_400a {
+	width: 400px ;
+	}
+.col_400a {
+	margin-left: 130px ;
+	}
+.col_400b {
+	width: 405px ;
+	height: 22px ;
+	}
+.col_420 {
+	width: 420px ;
+	}
+.col_600 {
+	width: 600px ;
+	}
+.col_620 {
+	width: 620px ;
+	}
+.radiobutt {
+	float: left ;
+	text-align: left ;
+	width: 100px ;
+	margin-left: -10px ;
+	border: 0 transparent none ;
+	}
+.colyesno {
+	width: 40px ;
+	margin: 0 10px 0 10px ;
+	text-align: center ;
+	}
+.etxt {
+	width: 300px ;
+	margin-left: 20px ;
+	}
+.unit {
+	width: 20px ;
+	margin-left: 10px ;
+	}
+/*	EOF */

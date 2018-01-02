@@ -1,0 +1,435 @@
+﻿/*
+Theme Name: NWG
+Theme URI: http://www.parifizieren.at/NWG
+Author: Hartmut Krämer
+Author URL: http://www.parifizieren.at/NWG
+Version: 1
+
+1. Fonts
+2. Basic
+3. Header
+4. Content
+
+/* ########### 1. FONTS ########### */
+
+@font-face {
+	font-family: 'Commons';
+	src: url('fonts/commons-webfont.eot');
+	src: url('fonts/commons-webfont.eot?#iefix') format('embedded-opentype'),
+	     url('fonts/commons-webfont.woff') format('woff'),
+	     url('fonts/commons-webfont.ttf') format('truetype'),
+	     url('fonts/commons-webfont.svg#Commons') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	}
+
+/* ########### 2. BASIC ########### */
+*
+{
+	margin: 0;
+}
+
+html, body {
+	height: 100%;
+	}
+
+body {
+	background: url(../Bilder/bg.png) repeat;
+	font-family: 'Cabin', sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+	letter-spacing: 0.3px;
+	margin: 0;
+	padding: 0;
+	}
+
+#container {
+	box-shadow: 0 0 8px #E3E3E3;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -62px;
+	padding: 0px 20px 10px 20px;
+	width: 1400px ;
+	color: #666666 ;
+	}
+
+h1 {
+	font-size: 16px;
+	margin: 10px 0 26px 0;
+	text-align: center;
+/*	text-transform: uppercase; */
+	}
+
+h2 {
+	clear: both ;
+	float: left ;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 12px;
+	margin-top: -4px;
+/*	text-transform: uppercase; */
+	}
+
+h3 {
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 5px;
+	padding-top: 45px;
+/*	text-transform: uppercase; */
+	}
+
+h4 {
+	border-top: 1px solid #e1e0e0;
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: -6px;
+	padding: 10px 0 0;
+	text-align: center;
+/*	text-transform: uppercase; */
+	}
+
+h5 {
+	border-bottom: 1px solid #e1e0e0;
+	font-size: 12px;
+	font-weight: normal;
+	margin-bottom: 6px;
+	padding: 0 0 10px;
+	text-align: center;
+/*	text-transform: uppercase; */
+	}
+
+h6 {
+	font-size: 16px;
+	margin-top: 26px
+	}
+
+p {
+	clear: both;
+	float: left;
+	padding-bottom: 5px ;
+	color: #666666 ;
+	}
+a {
+	text-decoration: none ;
+	border: none ;
+	color: white ;
+	}
+a:link {
+	text-decoration: none;
+	}
+a:visited {
+	text-decoration: none;
+	}
+a:active {
+	text-decoration: none;
+	}
+a:hover {
+	color: #010101 ;
+	text-decoration: underline ;
+	}
+
+/* ########### 3. HEADER ########### */
+#header, #headerstammd, #headerB2  {
+	background: url(../Bilder/bg.png) repeat;
+	position: fixed;
+	margin: 0 auto;
+	width: 1440px;
+	margin-left: -20px;
+	padding-top: 30px;
+	z-index: 900;
+	border: 0;
+	}
+#header {
+	height: 175px;
+	}
+#headerB2 {
+	height: 200px;
+	}
+#headerstammd {
+	height: 110px;
+	}
+#head {
+	background: #7ea0b1 ;
+	width: 1440px ;
+	height: 80px ;
+	}
+#Logo {
+	float: right;
+	margin-right: 20px;
+	margin-top: -100px;
+	width: 127px ;
+	height: 127px ;
+	}
+
+
+/* ########### 4. CONTENT ########### */
+#main, #mainstammd {
+	clear: both;
+	float: left;
+	min-height: 100%;
+	width: 1400px ;
+	overflow: auto ;
+	padding-bottom: 10px ;
+	}
+#main {
+	margin-top: 210px ;
+	}
+#mainstammd {
+	margin-top: 140px ;
+	}
+
+#main_oben {
+	margin-top: -55px ;
+	margin-left: 5px ;
+	height: 55px ;
+	width: 1390px ;
+	padding: 10px 0 0 5px ;
+	position: fixed ;
+	background: url( ../Bilder/bg.png ) repeat ;
+	}
+#main_unten {
+	margin-top: 50px ;
+	}
+
+#loginbox {
+	margin-top: 30px ;
+	}
+.errmsg {
+	float: left;
+	margin-left: 20px ;
+	}
+
+.doks {
+	width: 150px ;
+	height: auto ;
+	border: 1px gray solid ;
+	}
+
+.input_drop, .input_droplong {
+	float: left ;
+	margin-left: 10px ;
+	margin-bottom: 3px ;
+	cursor: pointer ;
+	}
+.input_drop {
+	width: 150px ;
+	}
+.input_droplong {
+	width: 350px ;
+	}
+/* END - Main */
+
+/* Login */
+.input_label {
+	clear: both ;
+	width: 150px ;
+	}
+.input_lab {
+	clear: both ;
+	width: 85px ;
+	}
+.input_item1 {
+	clear: both ;
+	}
+/* ------------------------------------------------ */
+/* CSS für B5 */
+.grundlagen {
+	clear: both ;
+	float: left ;
+	margin-top: 25px ;
+	padding-bottom: 5px ;
+	border: 1px #7ea0b1 solid ;
+	}
+.tabrowheaddark {
+	clear: both ;
+	float: left ;
+	background-color: #7ea0b1 ;
+	color:#FFFFFF ;
+	vertical-align: middle ;
+	padding: 5px 5px 5px 10px ;
+	width: 1381px ;
+	}
+.tabrowhd {
+	width: 1375px ;
+	}
+.tabrw {
+	clear: both ;
+	float: left ;
+	width: 1200px ;
+	padding: 6px 5px 0 10px ;
+	}
+.tabrowhd {
+	background-color: #7ea0b1 ;
+	padding: 6px 5px 5px 15px ;
+	color:#FFFFFF ;
+	height: 15px ;
+	}
+
+.left_col {
+	clear: both ;
+	float: left ;
+	width: 25px ;
+	}
+.right_col {
+	float: left ;
+	margin-top: 4px ;
+	}
+.unterlagen {
+	clear: both ;
+	float: left ;
+	width: 1000px ;
+	margin: 0 0 20px 0 ;
+	}
+.unterlagen_items {
+	clear: both ;
+	float: left ;
+	margin: 10px 10px 20px 0 ;
+	color: #666666 ;
+	}
+/* ------------------------------------------------ */
+/* ------------ Allgemeine Angaben ---------------- */
+.input_label_a, .input_label_b {
+	clear: both ;
+	margin-top: 5px ;
+	margin-left: 5px ;
+	}
+.input_label_a {
+	width: 105px ;
+	}
+.input_label_b {
+	width: 180px ;
+	}
+.input_label_a, .input_label_b, .input_item_a600, .input_item_a300, .input_item_a150_datum, .input_item_a300_datum, .input_item_a240, .input_item_a225, .input_item_a230,
+.input_item_a50l, .input_item_a50r {
+	float: left ;
+	margin-bottom: 5px ;
+	}
+.input_item_a600 {
+	width: 600px ;
+	}
+.input_item_a300, .input_item_a300_datum {
+	width: 300px ;
+	}
+.input_item_a150_datum {
+	width: 150px ;
+	}
+.input_item_a150_datum, .input_item_a300_datum {
+	font-family: 'Cabin', sans-serif ;
+	font-size: 12px ;
+	}
+.input_item_a240 {
+	width: 240px ;
+	}
+.input_item_a230 {
+	width: 230px ;
+	}
+.input_item_a225 {
+	width: 225px ;
+	}
+.input_item_a50l {
+	width: 65px ;
+	margin-right: 5px ;
+	}
+.input_item_a50r {
+	width: 55px ;
+	margin-left: 5px ;
+	}
+.input_item_a50l, .input_item_a50r {
+	height: 21px ;
+	}
+/* ------------ ENDE Allgemeine Angaben ----------- */
+.input_label, .input_lab, .input_item, .input_item1 {
+	float: left ;
+	margin-bottom: 5px ;
+	}
+.display_dash {
+	float: left ;
+	margin: 5px 0 0 10px ;
+	}
+.input_item {
+	margin-left: 10px ;
+	}
+.infobox {
+	clear: both ;
+	padding: 7px 0 0 20px ;
+	color: white ;
+	text-transform: none ;
+	}
+.ausw {
+	clear: both ;
+	float: left ;
+	padding: 7px 0 0 20px ;
+	width: 1000px ;
+	}
+.auswliste {
+	float: left ;
+	}
+.auswbuttn {
+	float: left ;
+	}
+.infobox_linehead1 {
+	clear: both ;
+	}
+.infobox_linehead1, .infobox_linehead, .infobox_lineitem {
+	float: left ;
+	}
+.infobox_linehead1, .infobox_linehead {
+	font-weight: bold ;
+	text-decoration: underline ;
+	padding-right: 10px ;
+	}
+.infobox_lineitem {
+	padding-right: 20px ;
+	}
+
+.subheading {
+	clear: both ;
+	float: left ;
+	margin: 20px 0 5px 0 ;
+	font-size: 14px ;
+	font-weight: bold ;
+	}
+.subitem {
+	clear: both ;
+	float: left ;
+	}
+.docs {
+	clear: both ;
+	float: left ;
+	width: 940px ;
+	margin: 10px 0 10px 0 ;
+	}
+.docthmb {
+	clear: both ;
+	float: left ;
+	margin: 3px ;
+	width: 150px ;
+	height: auto ;
+	border: #999999 solid 1px ;
+	}
+.docdesc {
+	float: left ;
+	width: 600px ;
+	margin-left: 20px ;
+	}
+.docdescline {
+	clear: both ;
+	float: left ;
+	width: 600px ;
+	margin-bottom: 2px ;
+	}
+.docdesclinelabel {
+	float: left ;
+	width: 150px ;
+	}
+.docdesclineitem {
+	float: left ;
+	width: 400px ;
+	}
+.input_bool {
+	float: left ;
+	margin: 0 45px 10px 35px ;
+	cursor: pointer ;
+	}
+/*	EOF */

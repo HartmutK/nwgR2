@@ -1,0 +1,83 @@
+﻿/* 
+Theme Name: NWG
+Theme URI: http://www.parifizieren.at.at/NWG
+Author: Hartmut Krämer
+Author URL: http://www.parifizieren.at.at/NWG
+Version: 1
+*/
+
+.zimmer {
+	clear: both ;
+	float: left ;
+	width: 1350px ;
+	}
+.zimmerhead {
+	clear: both ;
+	float: left ;
+	width: 1378px ;
+	height: 20px ;
+	background-color: #7ea0b1 ;
+	padding: 6px 0 0 10px ;
+	color:#FFFFFF ;
+	margin: 15px 0 10px 0 ;
+	vertical-align: middle ;
+	}
+.room {
+	clear: both ;
+	float: left ;
+	width: 300px ;
+	}
+.laeng {
+	float: left ;
+	width: 900px ;
+	}
+.laengrow {
+	clear: both ;
+	float: left ;
+	width: 100% ;
+	padding-left: 10px ;
+	}
+.td25r, .td50r, .td75r, .td100r {
+	float: left ;
+	padding: 0 0 0 5px ;
+	margin-right: 15px ;
+	padding-right: 10px ;
+	text-align: right ;
+	}
+.rwh1 {
+	width: 300px ;	
+	}
+.td25r {
+	width: 25px ;	
+	}
+.td50r {
+	width: 50px ;	
+	}
+.td75r {
+	width: 75px ;	
+	}
+.td100r, .t100 {
+	float: left ;
+	width: 100px ;	
+	}
+.t125 {
+	float: left ;
+	width: 125px ;	
+	}
+.t200 {
+	float: left ;
+	width: 200px ;	
+	}
+.txt1 {
+	float: left ;
+	width: 300px ;	
+	}
+.regelwohngsumme {
+	clear: both ;
+	float: left ;
+	width: 895px ;
+	font-weight: bold ;
+	padding: 0 0 10px 0 ;
+	text-align: right ;
+	}
+/*	EOF */

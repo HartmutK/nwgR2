@@ -1,0 +1,47 @@
+﻿/* 
+Theme Name: NWG -  B.2.2 Objekte
+Theme URI: http://www.parifizieren.at/NWG
+Author: Hartmut Krämer
+Author URL: http://www.sitesolutions.eu
+Version: 1
+*/
+.clear {
+	clear: both ;
+	}
+#mainb2 {
+	float: left;
+	min-height: 100%;
+	width: 1350px ;
+	margin-top: 200px ;
+	padding: 50px 0 0 20px ;
+	position: fixed ;
+	background: url( ../Bilder/bg.png ) repeat ;
+	}
+.zeile, 
+.col1, .col2, .col2a, .col3, .col_buttons, .etxt {
+	float: left ;
+	margin-right: 20px ;
+	}
+.zeile {
+	width: 100% ;
+	margin-top: 7px ;
+	}
+.col1 {
+	width: 170px ;
+	margin-top: 4px ;
+	}
+.col2 {
+	width: 700px ;
+	}
+.col2a {
+	width: 699px ;
+	}
+.col3 {
+	width: 600px ;
+	}
+.col_buttons {
+	width: 250px ;
+	margin-top: 10px ;
+	margin-bottom: 10px ;
+	}
+/*	EOF */

@@ -1,0 +1,151 @@
+﻿/* 
+Theme Name: NWG -  B.2.2 Objekte
+Theme URI: http://www.parifizieren.at/NWG
+Author: Hartmut Krämer
+Author URL: http://www.sitesolutions.eu
+Version: 1
+*/
+.clear {
+	clear: both ;
+	}
+#maina1 {
+	float: left;
+	min-height: 100%;
+	width: 1400px ;
+	overflow: auto ;
+	padding-bottom: 10px ;
+	margin-top: 210px ;
+	}
+#maina1_oben {
+	margin: 10px 0 10px 5px ;
+	height: 100px ;
+	width: 1390px ;
+	padding: 0 0 0 5px ;
+	position: fixed ;
+	background: url( ../Bilder/bg.png ) repeat ;
+	}
+#maina1_middle {
+	padding-top: 85px ;
+	padding-left: 10px ;
+	}
+#mitte {
+	padding-top: 50px ;
+	padding-left: 10px ;
+	}
+#maina1_unten {
+	padding-left: 10px ;
+	}
+
+.tr, .trs, .trin, .trhd, .trhd1 {
+	float: left ;
+	width: 1368px ;
+	}
+.tr, .trin {
+	padding-bottom: 5px ;
+	}
+.trin {
+	padding-left: 10px ;
+	}
+.trhd, .trhd1 {
+	background-color: #7ea0b1 ;
+	color:#FFFFFF ;
+	height: 15px ;
+	padding: 6px 5px 5px 10px ;
+	margin-top: 15px ;
+	margin-bottom: 30px ;
+	position: fixed ;
+	}
+.trhd {
+	margin-top: 15px ;
+	}
+.trhd1 {
+	margin-top: 10px ;
+	}
+.trd {
+	margin-top: 5px ;
+	background-color:gray;
+	z-index: 1900 ;
+	}
+
+.col_buttons {
+	float: left ;
+	margin-left: 30px ;
+	margin-top: 3px ;
+	}
+
+.col1, .col2, .col2a, .col3, .col3a, .col4, .col4a, .col4b, .col5, .col6, .col6a, .col6b, .col6c, .col7, .col8, .colm, .colm1, .etxt {
+	float: left ;
+	}
+.col1, .col3, .col5, .col7 {
+	margin-top: 3px ;
+	}
+.col1 {
+	width: 60px ;
+	}
+.col2, .col2a {
+	width: 180px ;
+	}
+.col2a {
+	margin-left: 60px ;
+	}
+.col3, .col3a {
+	width: 90px ;
+	}
+.col3 {
+	margin-left: 55px ;
+	}
+.col3a {
+	margin-left: 295px ;
+	}
+.col4 {
+	width: 180px ;
+	margin-right: 30px ;
+	}
+.col4a, .col4b {
+	width: 85px ;
+	}
+.col4a {
+	margin-right: 10px ;
+	}
+.col4b {
+	margin-right: 30px ;
+	}
+.col5 {
+	width: 100px ;
+	margin-left: 30px ;
+	}
+.col6 {
+	width: 180px ;
+	}
+.col6a, .col6b {
+	margin-right: 10px ;
+	}
+.col6a {
+	width: 25px ;
+	}
+.col6b {
+	width: 45px ;
+	}
+.col6c {
+	width: 90px ;
+	}
+.col7 {
+	width: 60px ;
+	margin-left: 50px ;
+	}
+.col8 {
+	width: 150px ;
+	}
+.etxt {
+	width: 165px ;
+	margin-left: 35px ;
+	}
+.colm, .colm1 {
+	margin-right: 30px ;
+	width: 300px ;
+	}
+.colm1 {
+	margin-left: 330px ;
+	width: 300px ;
+	}
+/*	EOF */

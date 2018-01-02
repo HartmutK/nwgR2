@@ -1,0 +1,78 @@
+﻿/* 
+Theme Name: NWG -  C.3 Regelwohnung
+Theme URI: http://www.parifizieren.at/NWG
+Author: Hartmut Krämer
+Author URL: http://www.sitesolutions.eu
+Version: 1
+*/
+.clear {
+	clear: both ;
+	}
+#mainc3 {
+	float: left;
+	min-height: 100%;
+	width: 1400px ;
+	overflow: auto ;
+	padding-bottom: 10px ;
+	margin-top: 210px ;
+	}
+#mainc3_oben {
+	margin: -5px 0 10px 5px ;
+	height: 120px ;
+	width: 1390px ;
+	padding: 10px 0 0 5px ;
+	position: fixed ;
+	background: url( ../Bilder/bg.png ) repeat ;
+	}
+#mainc3_unten {
+	padding-top: 130px ;
+	padding-left: 20px ;
+	}
+
+.tr, .trin, .trhd {
+	float: left ;
+	width: 1368px ;
+	}
+.trhd {
+	background-color: #7ea0b1 ;
+	color:#FFFFFF ;
+	height: 15px ;
+	padding: 6px 5px 10px 10px ;
+	margin: 10px 0 30px 0 ;
+	position: fixed ;
+	}
+.trin {
+	padding-left: 10px ;
+	}
+
+.col1, .col2, .colges, .colhead, .coltotal, .colu1 {
+	float: left ;
+	margin-right: 20px ;
+	height: 20px ;
+	}
+.col1 {
+	width: 80px ;
+	}
+.col2 {
+	width: 150px ;
+	}
+.colges {
+	width: 80px ;
+	text-align: right ;
+	}
+.colhead {
+	width: 100px ;
+	font-weight: bold ;
+	text-decoration: underline ;
+	padding-top: 10px ;
+	}
+.coltotal {
+	width: 200px ;
+	margin-left: 450px ;
+	text-align: right ;
+	font-weight: bold ;
+	}
+.colu1 {
+	width: 450px ;
+	}
+/*	EOF */

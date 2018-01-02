@@ -1,0 +1,89 @@
+﻿/* 
+Theme Name: NWG -  B.2.2 Objekte
+Theme URI: http://www.parifizieren.at/NWG
+Author: Hartmut Krämer
+Author URL: http://www.sitesolutions.eu
+Version: 1
+*/
+.clear {
+	clear: both ;
+	}
+#mainb22 {
+	float: left;
+	min-height: 100%;
+	width: 1400px ;
+	overflow: auto ;
+	padding-bottom: 10px ;
+	margin-top: 210px ;
+	}
+#mainb22_oben {
+	margin: 25px 0 10px 5px ;
+	height: 130px ;
+	width: 1390px ;
+	padding: 10px 0 0 5px ;
+	position: fixed ;
+	background: url( ../Bilder/bg.png ) repeat ;
+	}
+#mainb22_unten {
+	padding-top: 170px ;
+	padding-left: 20px ;
+	}
+
+.tr, .trin, .trhd {
+	float: left ;
+	width: 1368px ;
+	}
+.tr, .trin {
+	padding-bottom: 5px ;
+	}
+.trin {
+	padding-left: 10px ;
+	}
+.trhd {
+	background-color: #7ea0b1 ;
+	color:#FFFFFF ;
+	height: 15px ;
+	padding: 6px 5px 5px 10px ;
+	margin-top: 15px ;
+	margin-bottom: 30px ;
+	position: fixed ;
+	}
+
+.col_buttons {
+	float: left ;
+	}
+
+.col1, .col2, .col3, .col_label, .col_input1, .col_input2, .col_aufzug {
+	float: left ;
+	margin-right: 20px ;
+	height: 20px ;
+	}
+.col1 {
+	width: 190px ;
+	}
+.col2 {
+	width: 120px ;
+	}
+.col3 {
+	width: 85px ;
+	}
+.col_label {
+	width: 120px ;
+	}
+.col_input1 {
+	width: 190px ;
+	height: 20px ;
+	}
+.col_input1a {
+	width: 187px ;
+	height: 15px ;
+	}
+.col_input2 {
+	width: 270px ;
+	}
+.col_aufzug {
+	width: 10px ;
+	margin-top: 3px ;
+	text-align: left ;
+	}
+/*	EOF */
