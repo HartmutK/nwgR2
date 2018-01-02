@@ -1,0 +1,46 @@
+<?php
+$tableid			= $row->GutachtenID ;
+$bezeichng		= $row->Bezeichnung ;
+$revit				= $row->RevitBez ;
+$faid					= $row->Firma ;
+$bearbeiter		= $row->Bearbeiter ;
+$abgeschl			= $row->Abgeschlossen ;
+$ausgestellt	= $row->Ausstellungsdatum ;
+$gz						= $row->GZ ;
+$index				= $row->GZindex ;
+$ez						= $row->EZ ;
+$gericht			= $row->Bezirksgericht ;
+$stichtag			= $row->Bewertungsstichtag ;
+$eigner				= $row->Eigentuemer ;
+$auftrag			= $row->Auftraggeber ;
+$zweck				= $row->Zweck ;
+$zweckgrund		= $row->Zweckgrund ;
+$besichtigt		= $row->BesichtigtAm ;
+$grundbuch		= $row->Grundbuch ;
+$gst_nr				= $row->GST_Nr ;
+$plz					= $row->PLZ ;
+$ort					= $row->Ort ;
+$str					= $row->Strasse ;
+$erstelltam		= $row->ErstelltAm ;
+$liegenschaft	= $row->Liegenschaft ;
+$zufahrtlage	= $row->ZufahrtLage ;
+$beschreibung	= $row->Beschreibung ;
+$gutachtn			= $row->Gutachten ;
+$praeambel 		= $row->Praeambel ;
+$gesetzl			= $row->GesetzlGrundl ; ;
+$empfehlgen		= $row->Empfehlungen ;
+$nichtbefund	= $row->NichtBefundet ;
+
+$lage					= $row->Lage ;
+$anbindung		= $row->Anbindung ;
+$zugang				= $row->Zugang ;
+$lagegrundstk	= $row->LageGrundstk ;
+$nachbarbau		= $row->Nachbarbau ;
+$ausrichtung	= $row->Ausrichtung ;
+$oeffentlich	= $row->Oeffentliches ;
+$gruenraum		= $row->Gruenraum ;
+$sonstiges		= $row->Sonstiges ;
+$ausstattung	= $row->Ausstattung ;
+$gesnflche		= $row->GesNFL ;
+$anmerkungaf	= $row->Anmerkung_AF ;
+?>
